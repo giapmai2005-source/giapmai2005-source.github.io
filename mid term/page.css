@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.centered-box {
+    width: 500px;
+    margin: 0 auto; /* This centers the box horizontally */
+    padding: 30px; /* Internal spacing */
+    border: 2px solid #333; /* Border around the box */
+    background-color: white;
+    border-radius: 8px; /* Optional: rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+}
+
+.centered-box h2 {
+    margin-top: 0;
+    color: #333;
+}
+
+.centered-box p {
+    line-height: 1.6;
+    color: #666;
+}
